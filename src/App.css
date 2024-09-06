@@ -4,7 +4,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
   background-color: #f8f9fa;
-  color: #333;
+  color: #0f0909;
 }
 
 .container {
@@ -13,7 +13,7 @@ body {
 
 /* Navbar styles */
 .navbar {
-  background: linear-gradient(to right, gray, #c0c5cb);
+  background: linear-gradient(to right, rgb(15, 15, 15), hsl(60, 1%, 30%));
   color: #fff;
 }
 
@@ -32,7 +32,7 @@ body {
 
 /* Home page styles */
 .slider {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .tabs {
@@ -75,7 +75,7 @@ body {
 }
 
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #101111;
   padding: 10px;
   border-radius: 5px;
 }
@@ -121,8 +121,8 @@ body {
 
 /* Footer styles */
 .footer {
-  background-color: grey;
-  color: #fff;
+  background-color: #bdbdbc;
+  color: #ebe2e2;
   padding: 5px;
   width: 100%;
   text-align: center;
@@ -330,7 +330,7 @@ body {
 }
 .height {
   height: 620px !important;
-  background-color: lightgray;
+  background-color: #616163;
   align-items: center;
   justify-content: center;
   padding: 25%;
@@ -375,7 +375,7 @@ body {
   position: absolute;
   width: 100px;
   height: 100px;
-  background-color: blue;
+  background-color: rgb(27, 27, 29);
   animation: moveDown 5s linear infinite;
 }
 /* App.css or HomePage.css */
@@ -393,21 +393,23 @@ body {
   animation: moveRightToLeft 2s ease-in-out forwards;
 }
 .pink {
-  background-color: grey;
+  background-color: #0e0f0e;
+  
 }
 
 .btn-oval {
   border-radius: 50px;
   padding: 10px 30px;
   font-size: 16px;
-  color: white;
-  background-color: darkgray;
+  color: rgb(187, 204, 236);
+  background-color: #2067be;
 }
 .size {
   width: 600px !important;
   height: 300px;
   border-radius: 7px;
   font-size: x-large;
-  background-color: #fff6f6 !important;
+  
+  background-color:#87878d !important;
   box-shadow: rgb(24, 21, 21) !important;
 }

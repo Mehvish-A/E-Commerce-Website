@@ -33,15 +33,15 @@ import "../App.css";
 const carouselItems = [
   {
     id: 1,
-    src: "public/images/banner.png",
-    className: "d-block w-100 img-fluid",
+    src: "https://images.pexels.com/photos/1619652/pexels-photo-1619652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    className: "d-block w-50 img-fluid",
     altText: "Slide 1",
     caption: "Welcome to our store!",
   },
   {
     id: 2,
-    className: "d-block w-100 img-fluid",
-    src: "public/imges/banner.png",
+    src: "https://images.unsplash.com/photo-1507464098880-e367bc5d2c08?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzE2fHxzaG9lc3xlbnwwfHwwfHx8MA%3D%3D",
+    className: "d-block w-50 img-fluid",
     caption: "Check out the latest arrivals!",
   },
 ];
@@ -50,15 +50,15 @@ const carouselItems = [
 const cardItems = [
   {
     title: "John Doe",
-    text: `"This is an amazing product! Highly recommended! I really apperciate your work"`,
+    text: "This is an amazing product! Highly recommended! I really apperciate your work",
   },
   {
     title: "Jane Smith",
-    text: `"Great service and quality. I will definitely buy again.I love your products"`,
+    text: "Great service and quality. I will definitely buy again.I love your products",
   },
   {
     title: "Alice Brown",
-    text: `"Outstanding quality and great experience shopping!I will buy in future also"`,
+    text: "Outstanding quality and great experience shopping!I will buy in future also",
   },
 ];
 
@@ -180,145 +180,134 @@ const Home = () => {
       id: 1,
       name: "Product 1",
       description: "New Arrival",
-      image: "public/imges/product1.png",
+      image: "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 2,
       name: "Product 2",
       description: "New Arrival",
-      image: "public/images/product2.png",
+      image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 3,
       name: "Product 3",
       description: "New Arrival",
-      image: "public/imges/product3.png",
+      image: "https://img.freepik.com/free-photo/pair-trainers_144627-3798.jpg?uid=R27608263&ga=GA1.1.1406659089.1721897367&semt=ais_hybrid",
     },
     {
       id: 4,
       name: "Product 4",
       description: "New Arrival",
-      image: "public/imges/product4.png",
+      image: "https://img.freepik.com/free-photo/men-shoes_1203-8654.jpg?t=st=1725527060~exp=1725530660~hmac=e6d4f149c161500f7274b62f3b36796f9948ea06b46bde495536cb11282dec0a&w=996",
     },
     {
       id: 5,
       name: "Product 5",
       description: "New Arrival",
-      image: "public/imges/product5.png",
+      image: "https://img.freepik.com/free-photo/fashion-shoes-sneakers_1203-7529.jpg?t=st=1725515109~exp=1725518709~hmac=4c25430efac5ca043083470e204966c3f555cb60d9a8cf2ac778f8466188b2e7&w=996",
     },
     {
       id: 6,
       name: "Product 6",
       description: "New Arrival",
-      image: "public/imges/product6.png",
+      image: "https://img.freepik.com/free-photo/shoes_1203-8138.jpg?t=st=1725527453~exp=1725531053~hmac=3602a3b49b0b452856ca32c57b54bb85be3d804ca72385a5da228d8cef33c91d&w=996",
     },
     {
       id: 7,
       name: "Product 7",
       description: "New Arrival",
-      image: "public/imges/product7.png",
+      image: "https://img.freepik.com/free-photo/shoes_1203-8154.jpg?uid=R27608263&ga=GA1.1.1406659089.1721897367&semt=ais_hybrid",
     },
+    
     {
       id: 8,
       name: "Product 8",
-      description: "Best Selling",
-      image: "public/imges/product8.png",
+      description: "New Arrival",
+      image: "https://img.freepik.com/free-photo/sport-shoes-running_1203-7549.jpg?t=st=1725547018~exp=1725550618~hmac=cb4f13ec0d34f0b04a85e251bd02ad7c3a333fdcce4d3167ffb3df0f83a6ecca&w=996",
     },
     {
       id: 9,
       name: "Product 9",
-      description: "Best Selling",
-      image: "public/imges/product9.png",
+      description: "New Arrival",
+      image: "https://img.freepik.com/free-photo/shoes-men-white-top-two_1203-6455.jpg?t=st=1725547622~exp=1725551222~hmac=157c06fb622fb0e520f52a4745c0a99bd8acb4302717c3bba0c4c1e42905cbc7&w=996",
     },
     {
       id: 10,
       name: "Product 10",
       description: "New Arrival",
-      image: "public/imges/product10.png",
+      image: "https://img.freepik.com/free-photo/men-shoes_1203-7424.jpg?uid=R27608263&ga=GA1.1.1406659089.1721897367&semt=ais_hybrid",
     },
     {
       id: 11,
       name: "Product 11",
       description: "New Arrival",
-      image: "public/imges/product11.png",
+      image: "https://img.freepik.com/free-photo/men-shoes_1203-8435.jpg?uid=R27608263&ga=GA1.1.1406659089.1721897367&semt=ais_hybrid",
     },
     {
       id: 12,
       name: "Product 12",
       description: "New Arrival",
-      image: "public/imges/product12.png",
+      image: "https://img.freepik.com/free-photo/men-shoes_1203-8698.jpg?uid=R27608263&ga=GA1.1.1406659089.1721897367&semt=ais_hybrid",
     },
     {
       id: 13,
       name: "Product 13",
-      description: "New Arrival",
-      image: "public/imges/product13.png",
+      description: "Best Selling",
+      image: "https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 14,
       name: "Product 14",
-      description: "New Arrival",
-      image: "public/imges/product14.png",
+      description: "Best Selling",
+      image: "https://images.unsplash.com/photo-1512374382149-233c42b6a83b?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 15,
       name: "Product 15",
       description: "Best Selling",
-      image: "public/imges/product15.png",
+      image: "https://images.unsplash.com/photo-1574946943172-4800feadfab7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fHNob2VzfGVufDB8fDB8fHww",
     },
     {
       id: 16,
       name: "Product 16",
       description: "Best Selling",
-      image: "public/imges/product16.png",
+      image: "https://plus.unsplash.com/premium_photo-1663134176589-eb782d207d13?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODV8fHNob2VzfGVufDB8fDB8fHww",
     },
     {
       id: 17,
       name: "Product 17",
       description: "Best Selling",
-      image: "public/imges/product17.png",
+      image: "https://images.unsplash.com/photo-1578608712688-36b5be8823dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODJ8fHNob2VzfGVufDB8fDB8fHww",
     },
     {
       id: 18,
       name: "Product 18",
       description: "Best Selling",
-      image: "public/imges/product18.png",
+      image: "https://images.unsplash.com/photo-1512990414788-d97cb4a25db3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODh8fHNob2VzfGVufDB8fDB8fHww",
     },
     {
       id: 19,
       name: "Product 19",
       description: "Best Selling",
-      image: "public/imges/product19.png",
+      image: "https://images.unsplash.com/photo-1556048219-bb6978360b84?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDMxfHxzaG9lc3xlbnwwfHwwfHx8MA%3D%3D",
     },
     {
       id: 20,
       name: "Product 20",
       description: "Best Selling",
-      image: "public/imges/product20.png",
+      image: "https://images.unsplash.com/photo-1542840410-51984f97783a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTA4fHxzaG9lc3xlbnwwfHwwfHx8MA%3D%3D",
     },
     {
       id: 21,
       name: "Product 21",
       description: "Best Selling",
-      image: "public/imges/product21.png",
+      image: "https://images.unsplash.com/photo-1597594839610-79160ac6a654?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjU1fHxzaG9lc3xlbnwwfHwwfHx8MA%3D%3D",
     },
     {
       id: 22,
       name: "Product 22",
       description: "Best Selling",
-      image: "public/imges/product22.png",
-    },
-    {
-      id: 23,
-      name: "Product 23",
-      description: "Best Selling",
-      image: "public/imges/product23.png",
-    },
-    {
-      id: 24,
-      name: "Product 24",
-      description: "Best Selling",
-      image: "public/imges/product24.png",
+      image: "https://images.unsplash.com/photo-1723082053696-f94b182d4693?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjYxfHxzaG9lc3xlbnwwfHwwfHx8MA%3D%3D",
     },
   ];
 
@@ -467,7 +456,7 @@ const Home = () => {
             <CardImg
               top
               width="100%"
-              src="./imges/instagram3.png"
+              src="https://i.pinimg.com/236x/4f/ee/89/4fee8975130a2d04c0ffd2b930674d4b.jpg"
               alt="Description of image"
             />
           </Col>
@@ -487,81 +476,81 @@ const Home = () => {
           <div className="container mt-5">
             {/* Product Categories Section */}
             <div className="row text-center mb-4">
-              <div className="col-6 col-md-2 animate__animated animate__fadeIn">
+              <div className="col-6 col-md-2 animate_animated animate_fadeIn">
                 <img
-                  src="./imges/cat.png"
-                  alt="Kids Toys"
+                  src="https://images-cdn.ubuy.co.in/637ec3b56af2800ead4fe525-christmas-men-lace-business-leather.jpg"
+                  alt=" Casual Shoes"
                   className="img-fluid rounded-circle mb-2"
                 />
-                <p>Kids Toys</p>
+                <p>Casual Shoes</p>
               </div>
-              <div className="col-6 col-md-2 animate__animated animate__fadeIn">
+              <div className="col-6 col-md-2 animate_animated animate_fadeIn">
                 <img
-                  src="./imges/cat2.png"
-                  alt="Teddy Bear"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT17WRSd4UXPpPQHuyoBMxM_pDxjGn8HfADBQ&s"
+                  alt="Boots"
                   className="img-fluid rounded-circle mb-2"
                 />
-                <p>Teddy Bear</p>
+                <p>Boots</p>
               </div>
-              <div className="col-6 col-md-2 animate__animated animate__fadeIn">
+              <div className="col-6 col-md-2 animate_animated animate_fadeIn">
                 <img
-                  src="./imges/cat3.png"
-                  alt="Boys"
+                  src="https://sloshoes.com/cdn/shop/products/GenuineLeathershoesGianteBLK_1.jpg?v=1673431523"
+                  alt="Loafers"
                   className="img-fluid rounded-circle mb-2"
                 />
-                <p>Boys</p>
+                <p>Loafers</p>
               </div>
-              <div className="col-6 col-md-2 animate__animated animate__fadeIn">
+              <div className="col-6 col-md-2 animate_animated animate_fadeIn">
                 <img
-                  src="./imges/cat4.png"
-                  alt="Shoes"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlGgf7tkSzdCV25NKmyT-vYg7q68sF1N6L-Q&s"
+                  alt="Sneakers"
                   className="img-fluid rounded-circle mb-2"
                 />
-                <p>Shoes</p>
+                <p>Sneakers</p>
               </div>
-              <div className="col-6 col-md-2 animate__animated animate__fadeIn">
+              <div className="col-6 col-md-2 animate_animated animate_fadeIn">
                 <img
-                  src="./imges/cat5.png"
-                  alt="Cribs"
+                  src="https://ae-pic-a1.aliexpress-media.com/kf/S5f9cc8482af54316ba3a838b8427fa2dx.jpg_640x640Q90.jpg_.webp"
+                  alt="Sandals"
                   className="img-fluid rounded-circle mb-2"
                 />
-                <p>Cribs</p>
+                <p>Sandals</p>
               </div>
-              <div className="col-6 col-md-2 animate__animated animate__fadeIn">
+              <div className="col-6 col-md-2 animate_animated animate_fadeIn">
                 <img
-                  src="./imges/cat6.png"
-                  alt="Wood Toys"
+                  src="https://kaisz.pk/wp-content/uploads/2022/12/black-kat.jpg"
+                  alt="Joggers"
                   className="img-fluid rounded-circle mb-2"
                 />
-                <p>Wood Toys</p>
+                <p>Joggers</p>
               </div>
             </div>
 
             {/* Discount Section */}
             <div className="row text-center text-white  pink py-4">
-              <div className="col-12 col-sm-3 animate__animated animate__bounceIn">
+              <div className="col-12 col-sm-3 animate_animated animate_bounceIn">
                 <div className="discount-card">
                   <h3>10% off</h3>
                   <p>Orders of $49</p>
                 </div>
               </div>
-              <div className="col-12 col-sm-3 animate__animated animate__bounceIn">
+              <div className="col-12 col-sm-3 animate_animated animate_bounceIn">
                 <div className="discount-card">
                   <h3>15% off</h3>
                   <p>Orders of $89</p>
                 </div>
               </div>
-              <div className="col-12 col-sm-3 animate__animated animate__bounceIn">
+              <div className="col-12 col-sm-3 animate_animated animate_bounceIn">
                 <div className="discount-card">
                   <h3>20% off</h3>
                   <p>Orders of $149</p>
                 </div>
               </div>
               <div className="col-12 col-sm-3 ">
-                <button className="animate__animated animate__fadeInUp btn-oval">
+                <button className="animate_animated animate_fadeInUp btn-oval">
                   CODE: ZORVATH-SUMMER-24
                 </button>
-                <p className="animate__animated animate__fadeInUp">
+                <p className="animate_animated animate_fadeInUp">
                   End at 21:00 – 17 June 2023
                 </p>
               </div>
